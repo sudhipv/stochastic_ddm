@@ -12,11 +12,11 @@ module load nixpkgs/16.09  intel/2016.4  openmpi/2.1.1 gmsh/3.0.6
 
 # Commands to run the preprocessing also in compute nodes
 
-# sh generate_data.sh
-# cd klePceData
+# bash scripts/generate_data.sh
+# cd data/kle_pce
 # gfortran KLE_PCE_Data.F90
 # ./a.out
-# cd ..
+# cd ../..
 
 ###############
 

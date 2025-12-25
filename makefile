@@ -13,7 +13,15 @@ PETSC_ARCH=arch-linux2-c-debug
 include ${PETSC_DIR}/lib/petsc/conf/variables
 include ${PETSC_DIR}/lib/petsc/conf/rules
 
-LIST = common.o myCommon.o variationalform.o PETScAssembly.o assembly.o PETScommon.o PETScSolvers.o main.o
+SRC_DIR = src
+LIST = $(SRC_DIR)/common.o \
+       $(SRC_DIR)/myCommon.o \
+       $(SRC_DIR)/variationalform.o \
+       $(SRC_DIR)/PETScAssembly.o \
+       $(SRC_DIR)/assembly.o \
+       $(SRC_DIR)/PETScommon.o \
+       $(SRC_DIR)/PETScSolvers.o \
+       $(SRC_DIR)/main.o
 
 all : $(LIST) chkopts
 	-${FLINKER} -o $(MAIN) $(LIST) ${PETSC_LIB} 
