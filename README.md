@@ -102,7 +102,27 @@ Always clean stale mesh data before re-running `scripts/generate_data*.sh` with 
 - **Documentation**: For PETSc installation hints see `docs/PETSc_Install.pdf`. For algorithmic details refer to the CMAME article cited below.
 
 ## References
-- Ajit Desai et al., *Scalable Domain Decomposition Solvers for Stochastic PDEs in High Performance Computing*, CMAME, 2016. (Link included in earlier README; keep handy for derivations.)
+## Reference
+
+> **[Scalable Domain Decomposition Methods for Nonlinear and Time-Dependent Stochastic Systems](https://doi.org/10.22215/etd/2023-15817)**
+
+**Authors:** Vasudevan, Padillath and Sharma, Sudhi  
+**Institution:** Carleton University (2023)  
+**DOI:** [10.22215/etd/2023-15817](https://doi.org/10.22215/etd/2023-15817)
+
+<details>
+<summary><b>Click to expand BibTeX citation</b></summary>
+
+```bibtex
+@phdthesis{vasudevan2023scalable,
+  title={Scalable Domain Decomposition Methods for Nonlinear and Time-Dependent Stochastic Systems},
+  author={Vasudevan, Padillath and Sharma, Sudhi},
+  year={2023},
+  school={Carleton University},
+  doi={10.22215/etd/2023-15817}
+}
+\```
+</details>
 
 ## Contact
 Sudhi Sharma P V — sudhisharmapadillath@gmail.com
