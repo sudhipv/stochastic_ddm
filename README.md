@@ -101,7 +101,7 @@ Always clean stale mesh data before re-running `scripts/generate_data*.sh` with 
 - **KLE/PCE selection**: When changing `nDim`/`nOrd`, regenerate both the triplet products and multi-index files inside `data/kle_pce/` and update filenames consumed in `main.F90`.
 - **Documentation**: For PETSc installation hints see `docs/PETSc_Install.pdf`. For algorithmic details refer to the CMAME article cited below.
 
-## References
+
 ## Reference
 
 > **[Scalable Domain Decomposition Methods for Nonlinear and Time-Dependent Stochastic Systems](https://doi.org/10.22215/etd/2023-15817)**
